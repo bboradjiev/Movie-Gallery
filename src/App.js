@@ -11,6 +11,7 @@ const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setsearchTerm] = useState("");
 
+  
   useEffect(() => {
     getMovies(FEATURED_API);
   }, []);
